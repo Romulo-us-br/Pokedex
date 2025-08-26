@@ -1,0 +1,31 @@
+* {
+  font-family: 'roboto-light';
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+/* Cabeçalho */
+header {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.pokedex {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .pokedex {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}

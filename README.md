@@ -1,3 +1,3 @@
 # Pokedex V1.0
 
-# Versão responsiva de uma pokedex da primeira geração de pokemons, utilizando pokeAPI
+# Versão responsiva de uma pokedex da primeira geração de pokemons.

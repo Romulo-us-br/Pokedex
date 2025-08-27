@@ -130,17 +130,32 @@
     height:70px;
 }
 
-.pokeDesc{
-    justify-content: justify;
-    background-color: white;
-    border: 2px solid black;
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
 }
 
-footer {
+.pagination button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
+
+footer{
     text-align: center;
     border:2px solid black;
     background-color: white;
-    margin:1rem;
+    padding:1.5rem;
+    margin-top: auto;
 }
 /* Descrição dos pokemon
 

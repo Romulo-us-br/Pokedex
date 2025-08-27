@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="charset" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie_compatible" />
     <title>Pokedex</title>
 
@@ -15,7 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
+    <!-- Scripts -->
+    <script src="assets/js/poke-api.js" defer></script>
+    <script src="assets/js/pokemon-model.js" defer></script>
     <script src="assets/js/main.js" defer></script>
   </head>
   <body>
@@ -27,18 +29,20 @@
       <section class="pokedex">
         <nav>
           <ol id="pokemonList" class="pokemons">
-            
-            
+            <!-- Os Pokemons são inseridos aqui -->
           </ol>
-          <button id="btnTeste" type="button">Aperte aqui</button>
+
         </nav>
-        <aside class="pokeDesc">
-          <h3>
-            descricao do pokemon
-          </h3>
-        </aside>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
+
       </section>
     </main>
+    
     <footer>
       <p>© Desenvolvido por Romulo Brasil</p>
     </footer>
